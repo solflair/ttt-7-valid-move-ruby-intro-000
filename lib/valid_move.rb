@@ -20,6 +20,6 @@ def position_taken?(board, index)
     return false
 
   elsif board[index] == nil
-    return false
+    return true
   end
 end
