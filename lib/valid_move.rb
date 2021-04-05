@@ -20,3 +20,12 @@ def position_taken?(board, index)
     return false
   end
 end
+
+
+def spot_exists?(board, index)
+  if board[index]
+    return true
+  else
+    return false
+  end 
+end
