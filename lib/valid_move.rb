@@ -23,7 +23,7 @@ end
 
 
 def spot_exists?(board, index)
-  if board[index]
+  if !(board[index] == nil)
     return true
   else
     return false
